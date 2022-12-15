@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.vuongvan.matrix" name="Vuong custom addon" version="1.0.0" provider-name="Vuong">
+	<extension point="xbmc.addon.repository" name="Vuong custom addon">
+		<info compressed="false">https://raw.githubusercontent.com/vuongvan/kodi/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/vuongvan/kodi/main/addons.xml.md5</checksum>
+		<datadir zip="true"></datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons for Kodi starting from Matrix rev</summary>
+		<description>Дополнения для Коди начиная с версии Матрица</description>
+		<disclaimer>For home usage only</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
